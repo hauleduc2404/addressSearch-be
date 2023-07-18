@@ -8,10 +8,10 @@ const port = 3080;
 
 // Kết nối tới cơ sở dữ liệu MySQL
 const connection = mysql.createConnection({
-  host: '127.0.0.1',
-  user: 'root',
-  password: 'hau2404tls',
-  database: 'addresses',
+  host: 'sql6.freesqldatabase.com',
+  user: 'sql6633541',
+  password: '1DAtbc2hxf',
+  database: 'sql6633541',
 });
 
 connection.connect((err) => {
